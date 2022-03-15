@@ -481,7 +481,7 @@ pickle.dump(classifier, open("model.pkl", "wb"))
 
 
 
-
+"""
 
 #print("********************************RESULT USING DECISION TREE CLASSIFIER************************************")
 
@@ -490,7 +490,7 @@ test_result= classifier.predict(X_test)
 score=accuracy_score(y_test,test_result)
 print("The model is predicting with an accuracy of " + str(score*100)+"%")
 
-"""
+
 x_user= extract_features(user_name)
 
 result= classifier.predict(x_user)
