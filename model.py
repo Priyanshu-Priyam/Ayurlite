@@ -463,8 +463,8 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 
 
-X= np.load('outfile.npy')
-Y= np.load('infile.npy')
+X= np.load('outfiles.npy')
+Y= np.load('infiles.npy')
 
 
 
